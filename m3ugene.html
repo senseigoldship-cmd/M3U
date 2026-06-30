@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>M3U Brasil - 90 Canais</title>
+<style>
+body{background:#0a0a0a;color:#fff;font-family:sans-serif;padding:20px;max-width:900px;margin:auto}
+h1{color:red;text-align:center}
+.box{background:#111;border:1px solid #333;padding:15px;border-radius:10px;margin:10px 0}
+.canal{display:flex;align-items:center;padding:4px 0;border-bottom:1px solid #1a1a1a}
+.canal input{margin-right:8px}
+.canal span{flex:1;font-size:14px}
+.tag{color:#ff4444;font-size:11px;background:#200;padding:2px 8px;border-radius:10px}
+#container{margin:10px 0;max-height:400px;overflow-y:auto}
+#linkBox{background:#0d0d0d;border:1px solid #0f0;padding:10px;border-radius:8px;word-break:break-all;display:none;color:#0f0;font-size:13px}
+.btn{background:red;color:#fff;border:none;padding:12px 30px;border-radius:30px;font-size:18px;cursor:pointer;width:100%;margin:10px 0}
+.btn:hover{background:#d00}
+.copy{background:#1a1a1a;color:#0f0;border:1px solid #0f0;padding:6px 15px;border-radius:20px;cursor:pointer;margin-top:5px}
+.copy:hover{background:#0a2a0a}
+input{background:#1a1a1a;border:1px solid #333;border-radius:20px;padding:8px 12px;color:#fff;margin:3px}
+.filtro{display:flex;gap:5px;margin:10px 0}
+.filtro input{flex:1}
+.filtro button{background:#222;border:1px solid #444;color:#aaa;padding:6px 12px;border-radius:20px;cursor:pointer}
+.add-row{display:flex;gap:5px;flex-wrap:wrap;margin:8px 0}
+.add-row input{flex:1;min-width:60px}
+.add-row button{background:#300;border:1px solid red;color:red;padding:6px 12px;border-radius:20px;cursor:pointer}
+.chip{background:#200;border:1px solid #440;border-radius:20px;padding:2px 8px;font-size:11px;display:inline-block;margin:2px}
+.chip .x{color:red;cursor:pointer;margin-left:4px}
+.contagem{color:#666;font-size:12px;text-align:right}
+</style>
+</head>
+<body>
+
+<h1>🔥 M3U BRASIL - 90 CANAIS</h1>
+
+<div class="box">
+  <label>👤 Seu nome: <input type="text" id="inputUser" value="Playlist" style="width:170px"></label>
+  <button class="btn" id="btnGerar">⚡ GERAR M3U</button>
+  <div id="msg" style="color:lime;text-align:center;display:none;margin:5px 0"></div>
+</div>
+
+<div class="box">
+  <div class="filtro">
+    <input type="text" id="filtroBusca" placeholder="🔍 Buscar...">
+    <button id="btnTodos">✅ Todos</button>
+    <button id="btnLimpar">❌ Limpar</button>
+  </div>
+  <div id="container"></div>
+  <div class="contagem" id="contagem">0 de 90 selecionados</div>
+</div>
+
+<div class="box">
+  <strong style="color:red;font-size:13px">➕ Adicionar link próprio:</strong>
+  <div class="add-row">
+    <input type="text" id="addNome" placeholder="Nome">
+    <input type="text" id="addLink" placeholder="https://...m3u8" style="flex:2">
+    <input type="text" id="addTag" placeholder="TAG">
+    <button id="btnAdd">➕</button>
+  </div>
+  <div id="chips"></div>
+</div>
+
+<div class="box">
+  <strong style="color:#0f0">🔗 LINK DA PLAYLIST:</strong>
+  <div id="linkBox"></div>
+  <button class="copy" id="btnCopy">📋 Copiar Link</button>
+  <button class="copy" id="btnDownload" style="margin-left:5px">⬇️ Baixar .m3u</button>
+</div>
+
+<script>
+// ===== 90 CANAIS =====
+const CANAIS = [
+  {id:'sbt',n:'📺 SBT',t:'ABERTO',s:'https://www.youtube.com/watch?v=ABVQXgr2LW4'},
+  {id:'tvbrasil',n:'📡 TV Brasil',t:'ABERTO',s:'https://stream.ls-tv.tv/live/206.m3u8'},
+  {id:'tvcultura',n:'🎭 TV Cultura',t:'ABERTO',s:'https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8'},
+  {id:'recordtv',n:'📺 Record TV',t:'ABERTO',s:'https://playplus.video.globo.com.br/live/record/tv/record.m3u8'},
+  {id:'redebrasil',n:'📡 Rede Brasil',t:'ABERTO',s:'https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8'},
+  {id:'combrasil',n:'📺 COM Brasil',t:'ABERTO',s:'https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8'},
+  {id:'istv',n:'📺 ISTV',t:'ABERTO',s:'https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8'},
+  {id:'soutv',n:'📺 SOU TV',t:'ABERTO',s:'https://video10.logicahost.com.br/soutv/soutv/playlist.m3u8'},
+  {id:'rtntv',n:'📺 RTN TV',t:'ABERTO',s:'https://tv01.zas.media:1936/rtntv/rtntv/chunklist.m3u8'},
+  {id:'tvinterlagos',n:'📺 TV Interlagos',t:'ABERTO',s:'https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8'},
+  {id:'tvsol',n:'📺 TV Sol',t:'ABERTO',s:'http://streaming03.zas.media:1935/tvsol/tvsol/playlist.m3u8'},
+  {id:'tvbrasil2',n:'📡 TV Brasil 2',t:'CULTURAL',s:'https://lbgo.bozztv.com/ssh101/ssh101/unitvms/playlist.m3u8'},
+  {id:'amazonsat',n:'🌳 Amazon Sat',t:'CULTURAL',s:'https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8'},
+  {id:'tve-rs',n:'📡 TVE RS',t:'CULTURAL',s:'http://selpro1348.procergs.com.br:1935/tve/stve/playlist.m3u8'},
+  {id:'tvebahia',n:'📡 TVE Bahia',t:'CULTURAL',s:'http://177.54.30.172:1935/tvebahia/tvebahia/playlist.m3u8'},
+  {id:'redeminas',n:'📡 Rede Minas',t:'CULTURAL',s:'https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8'},
+  {id:'tvufg',n:'🎓 TV UFG',t:'CULTURAL',s:'http://flash.softhost.com.br:1935/ufg/tvufgweb/playlist.m3u8'},
+  {id:'unisultv',n:'🎓 UNISUL TV',t:'CULTURAL',s:'https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8'},
+  {id:'tvmax',n:'📺 TV MAX',t:'CULTURAL',s:'https://5cf4a2c2512a2.streamlock.net/tvmax/tvmax/playlist.m3u8'},
+  {id:'tvsulminas',n:'📺 TV Sul de Minas',t:'CULTURAL',s:'https://5cf4a2c2512a2.streamlock.net/tvsuldeminas/tvsuldeminas/playlist.m3u8'},
+  {id:'tvpassofundo',n:'📺 TV Passo Fundo',t:'CULTURAL',s:'https://5a57bda70564a.streamlock.net/tvpasso/tvpasso.sdp/playlist.m3u8'},
+  {id:'recordnews',n:'📰 Record News',t:'NOTÍCIAS',s:'https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116'},
+  {id:'globonews',n:'📰 GloboNews',t:'NOTÍCIAS',s:'http://41.205.70.146/GLOBONEWS/index.m3u8'},
+  {id:'bandnews',n:'📰 BandNews',t:'NOTÍCIAS',s:'https://cdn-5.nxplay.com.br/BAND_NEWS/index.m3u8'},
+  {id:'bandnews2',n:'📰 BandNews HD',t:'NOTÍCIAS',s:'http://143.14.178.40:7777/Band_News_HD/index.m3u8'},
+  {id:'j3news',n:'📰 J3NEWS TV',t:'NOTÍCIAS',s:'https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8'},
+  {id:'tvcamara',n:'🏛️ TV Câmara',t:'NOTÍCIAS',s:'https://stream3.camara.gov.br/tv1/manifest.m3u8'},
+  {id:'canalgov',n:'🏛️ Canal Gov',t:'NOTÍCIAS',s:'https://canalgov-stream.ebc.com.br/index.m3u8'},
+  {id:'tvsenado',n:'🏛️ TV Senado',t:'NOTÍCIAS',s:'https://www.youtube.com/watch?v=wD3KHI_b-PI'},
+  {id:'tvjustica',n:'⚖️ TV Justiça',t:'NOTÍCIAS',s:'https://www.youtube.com/@TVJusticaOficial/live'},
+  {id:'tveducacao',n:'📚 TV Educação',t:'NOTÍCIAS',s:'https://canaleducacao-stream.ebc.com.br/index.m3u8'},
+  {id:'tvsim1',n:'📺 TV Sim Cachoeiro',t:'NOTÍCIAS',s:'https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8'},
+  {id:'tvsim2',n:'📺 TV Sim Colatina',t:'NOTÍCIAS',s:'https://5cf4a2c2512a2.streamlock.net/8132/8132/playlist.m3u8'},
+  {id:'bandsports',n:'🏅 Band Sports',t:'ESPORTES',s:'https://cdn-5.nxplay.com.br/BAND_SPORTS/index.m3u8'},
+  {id:'bandsports2',n:'🏅 Band Sports HD',t:'ESPORTES',s:'http://143.14.178.40:7777/Band_Sports_HD/index.m3u8'},
+  {id:'allsports',n:'🏅 All Sports TV',t:'ESPORTES',s:'http://tv01.logicahost.com.br:1935/dgrau/dgrau/live.m3u8'},
+  {id:'canal25',n:'📺 Canal 25 Jundiaí',t:'ESPORTES',s:'https://stream01.msolutionbrasil.com.br/hls/canal25/live.m3u8'},
+  {id:'redbulltv',n:'🏁 Red Bull TV',t:'ESPORTES',s:'https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8'},
+  {id:'cazetv',n:'🔴 CazéTV',t:'ESPORTES',s:'https://www.youtube.com/@CazeTV/live'},
+  {id:'conectv',n:'📺 ConecTV',t:'ESPORTES',s:'https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8'},
+  {id:'conexaotv',n:'📺 Conexão TV',t:'ESPORTES',s:'https://5a57bda70564a.streamlock.net/conexaotv/conexaotv.sdp/playlist.m3u8'},
+  {id:'tvturfe',n:'🐎 TV Turfe',t:'ESPORTES',s:'http://168.205.87.198:8555/live/1216/123456/152.m3u8'},
+  {id:'canaloff',n:'🏄 Canal Off',t:'ESPORTES',s:'http://143.14.178.40:7777/OFF_HD/index.m3u8'},
+  {id:'megapix',n:'🎬 Megapix',t:'FILMES',s:'http://143.14.178.40:7777/Megapix_HD/index.m3u8'},
+  {id:'canalbrasil',n:'🎬 Canal Brasil',t:'FILMES',s:'http://143.14.178.40:7777/Canal_Brasil_HD/index.m3u8'},
+  {id:'arte1',n:'🎬 Arte 1',t:'FILMES',s:'http://143.14.178.40:7777/Arte_1_HD/index.m3u8'},
+  {id:'gnt',n:'🎬 GNT',t:'FILMES',s:'http://143.14.178.40:7777/GNT_HD/index.m3u8'},
+  {id:'multishow',n:'🎬 Multishow',t:'FILMES',s:'http://143.14.178.40:7777/Multishow_HD/index.m3u8'},
+  {id:'bis',n:'🎬 Bis',t:'FILMES',s:'http://143.14.178.40:7777/BIS_HD/index.m3u8'},
+  {id:'woohoo',n:'🎬 WooHoo',t:'FILMES',s:'http://143.14.178.40:7777/Woohoo_HD/index.m3u8'},
+  {id:'musicbox',n:'🎵 Music Box',t:'FILMES',s:'http://143.14.178.40:7777/Music_Box_HD/index.m3u8'},
+  {id:'globoplaynov',n:'🎬 Globoplay Novelas',t:'FILMES',s:'http://143.14.178.40:7777/Globoplay_Novelas_HD/index.m3u8'},
+  {id:'sonychannel',n:'📺 Sony Channel',t:'FILMES',s:'https://cdn-5.nxplay.com.br/SONY_CHANNEL/index.m3u8'},
+  {id:'1001noites',n:'🌙 1001 Noites',t:'FILMES',s:'https://cdn.jmvstream.com/w/LVW-8155/ngrp:LVW8155_41E1ciuCvO_all/playlist.m3u8'},
+  {id:'adessotv',n:'🎭 Adesso TV',t:'FILMES',s:'https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8'},
+  {id:'chromatv',n:'🎨 Chroma TV',t:'FILMES',s:'https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8'},
+  {id:'loupe',n:'🔍 Loupe',t:'FILMES',s:'https://gpa-vja-samsungtvplus-br.otteravision.com/gpa/vja/vja.m3u8'},
+  {id:'ratimbum',n:'🧸 Rá-Tim-Bum',t:'INFANTIL',s:'https://cdn-5.nxplay.com.br/TV_RA_TIM_BUM/tracks-v2a1/mono.m3u8'},
+  {id:'gloob',n:'🧸 Gloob',t:'INFANTIL',s:'http://143.14.178.40:7777/Gloob_HD/index.m3u8'},
+  {id:'gloobinho',n:'🧸 Gloobinho',t:'INFANTIL',s:'http://143.14.178.40:7777/Gloobinho_HD/index.m3u8'},
+  {id:'tvratimbum2',n:'🧸 Rá-Tim-Bum 2',t:'INFANTIL',s:'https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8'},
+  {id:'tvcultinf',n:'🎨 TV Cultura Infantil',t:'INFANTIL',s:'https://cdn-5.nxplay.com.br/TV_CULTURA/index.m3u8'},
+  {id:'tvaparecida',n:'⛪ TV Aparecida',t:'RELIGIOSO',s:'https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/chunklist.m3u8'},
+  {id:'redevida',n:'⛪ Rede Vida',t:'RELIGIOSO',s:'https://cdn-5.nxplay.com.br/REDE_VIDA/index.m3u8'},
+  {id:'tvcnova',n:'⛪ Canção Nova',t:'RELIGIOSO',s:'https://cdn-5.nxplay.com.br/CANCAO_NOVA/index.m3u8'},
+  {id:'rittv',n:'⛪ RIT TV',t:'RELIGIOSO',s:'https://cdn-5.nxplay.com.br/RIT_TV/index.m3u8'},
+  {id:'novotempo',n:'⛪ Novo Tempo',t:'RELIGIOSO',s:'https://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/playlist.m3u8'},
+  {id:'boasnovas',n:'⛪ Boas Novas',t:'RELIGIOSO',s:'https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8'},
+  {id:'fontetv',n:'⛪ Fonte TV',t:'RELIGIOSO',s:'http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8'},
+  {id:'tvterceiroanjo',n:'⛪ TV Terceiro Anjo',t:'RELIGIOSO',s:'https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8'},
+  {id:'agrobrasil',n:'🌿 AgroBrasil TV',t:'VARIEDADES',s:'https://server.flixtv.com.br/agrobrasiltv/agrobrasiltv/playlist.m3u8'},
+  {id:'tvclube',n:'📺 TV Clube',t:'VARIEDADES',s:'https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8'},
+  {id:'tvmaismarica',n:'📺 TV Mais Maricá',t:'VARIEDADES',s:'https://5cf4a2c2512a2.streamlock.net/tvmaismarica/tvmaismarica/playlist.m3u8'},
+  {id:'tvpantanal',n:'📺 TV Pantanal MS',t:'VARIEDADES',s:'https://5a2b083e9f360.streamlock.net/tvpantanal/tvpantanal.sdp/playlist.m3u8'},
+  {id:'tvvicosa',n:'📺 TV Viçosa',t:'VARIEDADES',s:'http://wz4.dnip.com.br/fratevitv/fratevitv.sdp/playlist.m3u8'},
+  {id:'sertaotv',n:'📺 Sertão TV',t:'VARIEDADES',s:'http://wz4.dnip.com.br/sertaotv/sertaotv.sdp/playlist.m3u8'},
+  {id:'tvcomdf',n:'📺 TVCOM DF',t:'VARIEDADES',s:'https://5b7f3c45ab7c2.streamlock.net/8008/smil:8008.smil/playlist.m3u8'},
+  {id:'falalitoral',n:'📺 Fala Litoral',t:'VARIEDADES',s:'https://5c483b9d1019c.streamlock.net/falalitoraltv/falalitoraltv/playlist.m3u8'},
+  {id:'canalsete',n:'📺 Canal Sete',t:'VARIEDADES',s:'http://play.canalsete.com.br:1935/canalsete/xpl-c7_source/playlist.m3u8'},
+  {id:'bdctv',n:'📺 BDC TV',t:'VARIEDADES',s:'https://video01.kshost.com.br/bdctv/bdctv/playlist.m3u8'},
+  {id:'tvlatina',n:'📺 TV Latina',t:'VARIEDADES',s:'https://www.latinasat.com.br/hls/live/stream/index.m3u8'},
+  {id:'tvmatcomedy',n:'📺 TVMatic Comedy',t:'VARIEDADES',s:'https://gpa-vja-samsungtvplus-br.otteravision.com/gpa/vja/vja.m3u8'},
+  {id:'alphachannel',n:'📺 Alpha Channel',t:'VARIEDADES',s:'https://5b01a3d32b65c.streamlock.net:1936/tvalpha/tvalpha/playlist.m3u8'},
+  {id:'awtv',n:'📺 AWTV',t:'VARIEDADES',s:'https://awtv.nuvemplay.live/hls/stream.m3u8'},
+  {id:'rangotv',n:'🎪 Rango TV',t:'VARIEDADES',s:'https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8'},
+  {id:'globo-sp',n:'📺 Globo SP',t:'GERAL',s:'https://cdn-5.nxplay.com.br/GLOBO_SP_TK/index.m3u8'},
+  {id:'globo2',n:'📺 Globo SP HD',t:'GERAL',s:'http://187.62.68.32:8080/GLOBO/index.m3u8'},
+];
+
+let extras = [];
+const REPO = 'senseigoldship-cmd/IPTV-repository';
+let linkAtual = '';
+
+function montar(filtro) {
+  const c = document.getElementById('container');
+  const todos = [...CANAIS, ...extras];
+  c.innerHTML = '';
+  todos.forEach((ch,i) => {
+    if (filtro && !ch.n.toLowerCase().includes(filtro.toLowerCase()) && !ch.t.toLowerCase().includes(filtro.toLowerCase())) return;
+    const d = document.createElement('div');
+    d.className = 'canal';
+    d.innerHTML = '<input type="checkbox" id="c'+i+'"><span>'+ch.n+'</span><span class="tag">'+ch.t+'</span>';
+    d.querySelector('input').onchange = () => contar();
+    d.onclick = (e) => {
+      if (e.target.tagName === 'INPUT') return;
+      const cb = d.querySelector('input');
+      cb.checked = !cb.checked;
+      contar();
+    };
+    c.appendChild(d);
+  });
+  contar();
+}
+
+function contar() {
+  const n = document.querySelectorAll('#container input:checked').length;
+  const t = document.querySelectorAll('#container input').length;
+  document.getElementById('contagem').textContent = n+' de '+t+' selecionados';
+}
+
+function msg(t) {
+  const el = document.getElementById('msg');
+  el.textContent = t;
+  el.style.display = 'block';
+  setTimeout(() => el.style.display = 'none', 3000);
+}
+
+document.getElementById('btnTodos').onclick = () => {
+  document.querySelectorAll('#container input').forEach(c => { c.checked = true; });
+  contar();
+};
+document.getElementById('btnLimpar').onclick = () => {
+  document.querySelectorAll('#container input').forEach(c => { c.checked = false; });
+  contar();
+};
+
+document.getElementById('filtroBusca').oninput = function() { montar(this.value); };
+
+document.getElementById('btnAdd').onclick = () => {
+  const nome = document.getElementById('addNome').value.trim();
+  const link = document.getElementById('addLink').value.trim();
+  const tag = (document.getElementById('addTag').value.trim() || 'GERAL').toUpperCase();
+  if (!nome || !link) { msg('Preencha nome e link!'); return; }
+  if (!link.startsWith('http')) { msg('Link inválido!'); return; }
+  extras.push({id:'e'+Date.now(),n:nome,t:tag,s:link});
+  document.getElementById('addNome').value = '';
+  document.getElementById('addLink').value = '';
+  document.getElementById('addTag').value = '';
+  montar(document.getElementById('filtroBusca').value);
+  renderChips();
+  msg('✅ '+nome+' adicionado!');
+};
+
+function renderChips() {
+  const b = document.getElementById('chips');
+  b.innerHTML = extras.map((ch,i) => '<span class="chip">'+ch.n+' ['+ch.t+'] <span class="x" onclick="removerExt('+i+')">✕</span></span>').join('');
+}
+function removerExt(i) {
+  extras.splice(i,1);
+  montar(document.getElementById('filtroBusca').value);
+  renderChips();
+}
+
+document.getElementById('btnGerar').onclick = function() {
+  const checks = document.querySelectorAll('#container input:checked');
+  const indices = [];
+  checks.forEach(c => {
+    const divs = [...document.getElementById('container').children];
+    const idx = divs.indexOf(c.parentElement);
+    if (idx >= 0) indices.push(idx);
+  });
+  if (!indices.length) { msg('Selecione canais!'); return; }
+
+  const nome = document.getElementById('inputUser').value.trim() || 'Playlist';
+  const data = new Date().toLocaleString('pt-BR');
+  const todos = [...CANAIS, ...extras];
+
+  let m3u = '#EXTM3U\n#PLAYLIST:M3U Brasil - '+nome+'\n#DESCRIPTION:'+indices.length+' canais | '+data+'\n';
+  indices.forEach(i => {
+    const ch = todos[i];
+    m3u += '#EXTINF:-1 tvg-id="'+ch.id+'" tvg-name="'+ch.n.replace(/[^\w\sÀ-ü]/g,'').trim()+'" group-title="'+ch.t+'",'+ch.n+'\n'+ch.s+'\n\n';
+  });
+
+  // Download
+  const nomeArq = 'playlist-brasil-'+nome.replace(/[^a-z0-9]/gi,'-').toLowerCase()+'.m3u';
+  const blob = new Blob([m3u], {type:'text/plain;charset=utf-8'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = nomeArq;
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a);
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+
+  // Link
+  linkAtual = 'https://raw.githubusercontent.com/'+REPO+'/main/'+nomeArq;
+  const lb = document.getElementById('linkBox');
+  lb.innerHTML = '<strong>✅ Playlist gerada! ('+indices.length+' canais)</strong><br><br>'
+    + '📁 Arquivo: <strong>'+nomeArq+'</strong><br><br>'
+    + '🔗 Link RAW (após upload):<br>'
+    + '<a href="'+linkAtual+'" target="_blank" style="color:#0f0;font-size:14px;">'+linkAtual+'</a><br><br>'
+    + '📤 <span style="color:#ff6666;">Upload no GitHub:</span><br>'
+    + '<a href="https://github.com/'+REPO+'/upload/main" target="_blank" style="color:#ff6666;">github.com/'+REPO+'/upload/main</a>';
+  lb.style.display = 'block';
+  msg('✅ Playlist baixada! Link pronto pra upload.');
+};
+
+document.getElementById('btnCopy').onclick = () => {
+  if (!linkAtual) { msg('Gere primeiro!'); return; }
+  navigator.clipboard.writeText(linkAtual).then(() => msg('✅ Link copiado!'));
+};
+
+document.getElementById('btnDownload').onclick = () => {
+  if (!linkAtual) { msg('Gere primeiro!'); return; }
+  window.open(linkAtual, '_blank');
+};
+
+montar();
+renderChips();
+// Pré-marcar 40 canais
+setTimeout(() => {
+  for (let i=0; i<40; i++) {
+    const cb = document.getElementById('c'+i);
+    if (cb) { cb.checked = true; }
+  }
+  contar();
+}, 100);
+</script>
+</body>
+</html>
