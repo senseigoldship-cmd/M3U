@@ -1,0 +1,535 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ch1" tvg-name="SBT" tvg-logo="" group-title="ABERTO",SBT
+https://www.youtube.com/watch?v=ABVQXgr2LW4
+#EXTINF:-1 tvg-id="ch2" tvg-name="TV Brasil" tvg-logo="" group-title="ABERTO",TV Brasil
+https://stream.ls-tv.tv/live/206.m3u8
+#EXTINF:-1 tvg-id="ch3" tvg-name="TV Cultura" tvg-logo="" group-title="ABERTO",TV Cultura
+https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+#EXTINF:-1 tvg-id="ch4" tvg-name="Record TV" tvg-logo="" group-title="ABERTO",Record TV
+https://playplus.video.globo.com.br/live/record/tv/record.m3u8
+#EXTINF:-1 tvg-id="ch5" tvg-name="Rede Brasil" tvg-logo="" group-title="ABERTO",Rede Brasil
+https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
+#EXTINF:-1 tvg-id="ch6" tvg-name="COM Brasil" tvg-logo="" group-title="ABERTO",COM Brasil
+https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
+#EXTINF:-1 tvg-id="ch7" tvg-name="ISTV" tvg-logo="" group-title="ABERTO",ISTV
+https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
+#EXTINF:-1 tvg-id="ch8" tvg-name="SOU TV" tvg-logo="" group-title="ABERTO",SOU TV
+https://video10.logicahost.com.br/soutv/soutv/playlist.m3u8
+#EXTINF:-1 tvg-id="ch9" tvg-name="RTN TV" tvg-logo="" group-title="ABERTO",RTN TV
+https://tv01.zas.media:1936/rtntv/rtntv/chunklist.m3u8
+#EXTINF:-1 tvg-id="ch10" tvg-name="TV Interlagos" tvg-logo="" group-title="ABERTO",TV Interlagos
+https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8
+#EXTINF:-1 tvg-id="ch11" tvg-name="TV Sol" tvg-logo="" group-title="ABERTO",TV Sol
+https://streaming03.zas.media:1935/tvsol/tvsol/playlist.m3u8
+#EXTINF:-1 tvg-id="ch12" tvg-name="Band SP" tvg-logo="" group-title="ABERTO",Band SP
+https://cdn-5.nxplay.com.br/BAND_SP/index.m3u8
+#EXTINF:-1 tvg-id="ch13" tvg-name="Globo SP" tvg-logo="" group-title="ABERTO",Globo SP
+https://cdn-5.nxplay.com.br/GLOBO_SP_TK/index.m3u8
+#EXTINF:-1 tvg-id="ch14" tvg-name="RedeTV" tvg-logo="" group-title="ABERTO",RedeTV
+https://cdn-5.nxplay.com.br/REDE_TV/index.m3u8
+#EXTINF:-1 tvg-id="ch15" tvg-name="CNT" tvg-logo="" group-title="ABERTO",CNT
+https://cdn-5.nxplay.com.br/CNT/index.m3u8
+#EXTINF:-1 tvg-id="ch16" tvg-name="TV Gazeta" tvg-logo="" group-title="ABERTO",TV Gazeta
+https://cdn-5.nxplay.com.br/TV_GAZETA/index.m3u8
+#EXTINF:-1 tvg-id="ch17" tvg-name="RBI TV" tvg-logo="" group-title="ABERTO",RBI TV
+https://5cf4a2c2512a2.streamlock.net/8212/8212/playlist.m3u8
+#EXTINF:-1 tvg-id="ch18" tvg-name="TV Thathi" tvg-logo="" group-title="ABERTO",TV Thathi
+https://5c483b9d1019c.streamlock.net/8038/8038/playlist.m3u8
+#EXTINF:-1 tvg-id="ch19" tvg-name="TV Cidade" tvg-logo="" group-title="ABERTO",TV Cidade
+https://5c483b9d1019c.streamlock.net/8050/8050/playlist.m3u8
+#EXTINF:-1 tvg-id="ch20" tvg-name="TV Alterosa" tvg-logo="" group-title="ABERTO",TV Alterosa
+https://5cf4a2c2512a2.streamlock.net/8256/8256/playlist.m3u8
+#EXTINF:-1 tvg-id="ch21" tvg-name="TV Aparecida" tvg-logo="" group-title="ABERTO",TV Aparecida
+https://tvaparecida-hls.brasil247.com.br/live/tvaparecida/master.m3u8
+#EXTINF:-1 tvg-id="ch22" tvg-name="TV Evangelizar" tvg-logo="" group-title="ABERTO",TV Evangelizar
+https://evangelizar-hls.brasil247.com.br/live/evangelizar/master.m3u8
+#EXTINF:-1 tvg-id="ch23" tvg-name="Rede Minas" tvg-logo="" group-title="ABERTO",Rede Minas
+https://redeminas-hls.brasil247.com.br/live/redeminas/master.m3u8
+#EXTINF:-1 tvg-id="ch24" tvg-name="TV UFMG" tvg-logo="" group-title="ABERTO",TV UFMG
+https://webtv.ufmg.br/live/tvufmg/tvufmg.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="ch25" tvg-name="TV Senado" tvg-logo="" group-title="ABERTO",TV Senado
+https://www.youtube.com/watch?v=wD3KHI_b-PI
+#EXTINF:-1 tvg-id="ch26" tvg-name="TV Brasil 2" tvg-logo="" group-title="ABERTO",TV Brasil 2
+https://stream.ls-tv.tv/live/206.m3u8
+#EXTINF:-1 tvg-id="ch27" tvg-name="TV Escola" tvg-logo="" group-title="ABERTO",TV Escola
+https://canaleducacao-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id="ch28" tvg-name="TV Amazonas" tvg-logo="" group-title="ABERTO",TV Amazonas
+https://5c483b9d1019c.streamlock.net/8090/8090/playlist.m3u8
+#EXTINF:-1 tvg-id="ch29" tvg-name="TV Maranhao" tvg-logo="" group-title="ABERTO",TV Maranhao
+https://5cf4a2c2512a2.streamlock.net/8100/8100/playlist.m3u8
+#EXTINF:-1 tvg-id="ch30" tvg-name="TV Ceara" tvg-logo="" group-title="ABERTO",TV Ceara
+https://5c483b9d1019c.streamlock.net/8110/8110/playlist.m3u8
+#EXTINF:-1 tvg-id="ch31" tvg-name="TV Bahia" tvg-logo="" group-title="ABERTO",TV Bahia
+https://5cf4a2c2512a2.streamlock.net/8120/8120/playlist.m3u8
+#EXTINF:-1 tvg-id="ch32" tvg-name="TV Pernambuco" tvg-logo="" group-title="ABERTO",TV Pernambuco
+https://5c483b9d1019c.streamlock.net/8130/8130/playlist.m3u8
+#EXTINF:-1 tvg-id="ch33" tvg-name="TV Rio" tvg-logo="" group-title="ABERTO",TV Rio
+https://5cf4a2c2512a2.streamlock.net/8140/8140/playlist.m3u8
+#EXTINF:-1 tvg-id="ch34" tvg-name="TV Minas" tvg-logo="" group-title="ABERTO",TV Minas
+https://5c483b9d1019c.streamlock.net/8150/8150/playlist.m3u8
+#EXTINF:-1 tvg-id="ch35" tvg-name="TV Brasil Central" tvg-logo="" group-title="ABERTO",TV Brasil Central
+https://5cf4a2c2512a2.streamlock.net/8160/8160/playlist.m3u8
+#EXTINF:-1 tvg-id="ch36" tvg-name="Megapix" tvg-logo="" group-title="FILMES",Megapix
+https://cdn-5.nxplay.com.br/MEGAPIX/index.m3u8
+#EXTINF:-1 tvg-id="ch37" tvg-name="Canal Brasil" tvg-logo="" group-title="FILMES",Canal Brasil
+https://cdn-5.nxplay.com.br/CANAL_BRASIL/index.m3u8
+#EXTINF:-1 tvg-id="ch38" tvg-name="Arte 1" tvg-logo="" group-title="FILMES",Arte 1
+https://cdn-5.nxplay.com.br/ARTE_1/index.m3u8
+#EXTINF:-1 tvg-id="ch39" tvg-name="Sony Channel" tvg-logo="" group-title="FILMES",Sony Channel
+https://cdn-5.nxplay.com.br/SONY_CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="ch40" tvg-name="Paramount Network" tvg-logo="" group-title="FILMES",Paramount Network
+https://cdn-5.nxplay.com.br/PARAMOUNT/index.m3u8
+#EXTINF:-1 tvg-id="ch41" tvg-name="Studio Universal" tvg-logo="" group-title="FILMES",Studio Universal
+https://cdn-5.nxplay.com.br/STUDIO_UNIVERSAL/index.m3u8
+#EXTINF:-1 tvg-id="ch42" tvg-name="AXN" tvg-logo="" group-title="FILMES",AXN
+https://cdn-5.nxplay.com.br/AXN/index.m3u8
+#EXTINF:-1 tvg-id="ch43" tvg-name="Universal TV" tvg-logo="" group-title="FILMES",Universal TV
+https://cdn-5.nxplay.com.br/UNIVERSAL_TV/index.m3u8
+#EXTINF:-1 tvg-id="ch44" tvg-name="Syfy" tvg-logo="" group-title="FILMES",Syfy
+https://cdn-5.nxplay.com.br/SYFY/index.m3u8
+#EXTINF:-1 tvg-id="ch45" tvg-name="TCM" tvg-logo="" group-title="FILMES",TCM
+https://cdn-5.nxplay.com.br/TCM/index.m3u8
+#EXTINF:-1 tvg-id="ch46" tvg-name="AMC" tvg-logo="" group-title="FILMES",AMC
+https://cdn-5.nxplay.com.br/AMC/index.m3u8
+#EXTINF:-1 tvg-id="ch47" tvg-name="FX" tvg-logo="" group-title="FILMES",FX
+https://cdn-5.nxplay.com.br/FX/index.m3u8
+#EXTINF:-1 tvg-id="ch48" tvg-name="A&E" tvg-logo="" group-title="FILMES",A&E
+https://cdn-5.nxplay.com.br/AE/index.m3u8
+#EXTINF:-1 tvg-id="ch49" tvg-name="Star Channel" tvg-logo="" group-title="FILMES",Star Channel
+https://cdn-5.nxplay.com.br/STAR_CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="ch50" tvg-name="Warner Channel" tvg-logo="" group-title="FILMES",Warner Channel
+https://cdn-5.nxplay.com.br/WARNER/index.m3u8
+#EXTINF:-1 tvg-id="ch51" tvg-name="Comedy Central" tvg-logo="" group-title="FILMES",Comedy Central
+https://cdn-5.nxplay.com.br/COMEDY_CENTRAL/index.m3u8
+#EXTINF:-1 tvg-id="ch52" tvg-name="Globoplay Novelas" tvg-logo="" group-title="FILMES",Globoplay Novelas
+https://cdn-5.nxplay.com.br/GLOBOPLAY_NOVELAS/index.m3u8
+#EXTINF:-1 tvg-id="ch53" tvg-name="GNT" tvg-logo="" group-title="FILMES",GNT
+https://cdn-5.nxplay.com.br/GNT/index.m3u8
+#EXTINF:-1 tvg-id="ch54" tvg-name="Multishow" tvg-logo="" group-title="FILMES",Multishow
+https://cdn-5.nxplay.com.br/MULTISHOW/index.m3u8
+#EXTINF:-1 tvg-id="ch55" tvg-name="BIS" tvg-logo="" group-title="FILMES",BIS
+https://cdn-5.nxplay.com.br/BIS/index.m3u8
+#EXTINF:-1 tvg-id="ch56" tvg-name="WooHoo" tvg-logo="" group-title="FILMES",WooHoo
+https://cdn-5.nxplay.com.br/WOOHOO/index.m3u8
+#EXTINF:-1 tvg-id="ch57" tvg-name="Telecine" tvg-logo="" group-title="FILMES",Telecine
+https://cdn-5.nxplay.com.br/TELECINE/index.m3u8
+#EXTINF:-1 tvg-id="ch58" tvg-name="Telecine Action" tvg-logo="" group-title="FILMES",Telecine Action
+https://cdn-5.nxplay.com.br/TELECINE_ACTION/index.m3u8
+#EXTINF:-1 tvg-id="ch59" tvg-name="Telecine Touch" tvg-logo="" group-title="FILMES",Telecine Touch
+https://cdn-5.nxplay.com.br/TELECINE_TOUCH/index.m3u8
+#EXTINF:-1 tvg-id="ch60" tvg-name="Telecine Pipoca" tvg-logo="" group-title="FILMES",Telecine Pipoca
+https://cdn-5.nxplay.com.br/TELECINE_PIPOCA/index.m3u8
+#EXTINF:-1 tvg-id="ch61" tvg-name="Telecine Premium" tvg-logo="" group-title="FILMES",Telecine Premium
+https://cdn-5.nxplay.com.br/TELECINE_PREMIUM/index.m3u8
+#EXTINF:-1 tvg-id="ch62" tvg-name="Telecine Cult" tvg-logo="" group-title="FILMES",Telecine Cult
+https://cdn-5.nxplay.com.br/TELECINE_CULT/index.m3u8
+#EXTINF:-1 tvg-id="ch63" tvg-name="Paramount HD" tvg-logo="" group-title="FILMES",Paramount HD
+https://cdn-5.nxplay.com.br/PARAMOUNT_HD/index.m3u8
+#EXTINF:-1 tvg-id="ch64" tvg-name="Sony HD" tvg-logo="" group-title="FILMES",Sony HD
+https://cdn-5.nxplay.com.br/SONY_HD/index.m3u8
+#EXTINF:-1 tvg-id="ch65" tvg-name="AXN HD" tvg-logo="" group-title="FILMES",AXN HD
+https://cdn-5.nxplay.com.br/AXN_HD/index.m3u8
+#EXTINF:-1 tvg-id="ch66" tvg-name="Studio Universal HD" tvg-logo="" group-title="FILMES",Studio Universal HD
+https://cdn-5.nxplay.com.br/STUDIO_UNIVERSAL_HD/index.m3u8
+#EXTINF:-1 tvg-id="ch67" tvg-name="Universal TV HD" tvg-logo="" group-title="FILMES",Universal TV HD
+https://cdn-5.nxplay.com.br/UNIVERSAL_TV_HD/index.m3u8
+#EXTINF:-1 tvg-id="ch68" tvg-name="AMC HD" tvg-logo="" group-title="FILMES",AMC HD
+https://cdn-5.nxplay.com.br/AMC_HD/index.m3u8
+#EXTINF:-1 tvg-id="ch69" tvg-name="TCM HD" tvg-logo="" group-title="FILMES",TCM HD
+https://cdn-5.nxplay.com.br/TCM_HD/index.m3u8
+#EXTINF:-1 tvg-id="ch70" tvg-name="FX HD" tvg-logo="" group-title="FILMES",FX HD
+https://cdn-5.nxplay.com.br/FX_HD/index.m3u8
+#EXTINF:-1 tvg-id="ch71" tvg-name="HBO" tvg-logo="" group-title="FILMES",HBO
+https://cdn-5.nxplay.com.br/HBO/index.m3u8
+#EXTINF:-1 tvg-id="ch72" tvg-name="HBO 2" tvg-logo="" group-title="FILMES",HBO 2
+https://cdn-5.nxplay.com.br/HBO2/index.m3u8
+#EXTINF:-1 tvg-id="ch73" tvg-name="HBO Plus" tvg-logo="" group-title="FILMES",HBO Plus
+https://cdn-5.nxplay.com.br/HBO_PLUS/index.m3u8
+#EXTINF:-1 tvg-id="ch74" tvg-name="HBO Family" tvg-logo="" group-title="FILMES",HBO Family
+https://cdn-5.nxplay.com.br/HBO_FAMILY/index.m3u8
+#EXTINF:-1 tvg-id="ch75" tvg-name="Cinemax" tvg-logo="" group-title="FILMES",Cinemax
+https://cdn-5.nxplay.com.br/CINEMAX/index.m3u8
+#EXTINF:-1 tvg-id="ch76" tvg-name="Max Prime" tvg-logo="" group-title="FILMES",Max Prime
+https://cdn-5.nxplay.com.br/MAX_PRIME/index.m3u8
+#EXTINF:-1 tvg-id="ch77" tvg-name="Max Up" tvg-logo="" group-title="FILMES",Max Up
+https://cdn-5.nxplay.com.br/MAX_UP/index.m3u8
+#EXTINF:-1 tvg-id="ch78" tvg-name="Space" tvg-logo="" group-title="FILMES",Space
+https://cdn-5.nxplay.com.br/SPACE/index.m3u8
+#EXTINF:-1 tvg-id="ch79" tvg-name="TNT" tvg-logo="" group-title="FILMES",TNT
+https://cdn-5.nxplay.com.br/TNT/index.m3u8
+#EXTINF:-1 tvg-id="ch80" tvg-name="TNT Series" tvg-logo="" group-title="FILMES",TNT Series
+https://cdn-5.nxplay.com.br/TNT_SERIES/index.m3u8
+#EXTINF:-1 tvg-id="ch81" tvg-name="Band Sports" tvg-logo="" group-title="ESPORTES",Band Sports
+https://cdn-5.nxplay.com.br/BAND_SPORTS/index.m3u8
+#EXTINF:-1 tvg-id="ch82" tvg-name="All Sports TV" tvg-logo="" group-title="ESPORTES",All Sports TV
+http://tv01.logicahost.com.br:1935/dgrau/dgrau/live.m3u8
+#EXTINF:-1 tvg-id="ch83" tvg-name="Canal 25" tvg-logo="" group-title="ESPORTES",Canal 25
+https://stream01.msolutionbrasil.com.br/hls/canal25/live.m3u8
+#EXTINF:-1 tvg-id="ch84" tvg-name="Red Bull TV" tvg-logo="" group-title="ESPORTES",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-id="ch85" tvg-name="CazéTV" tvg-logo="" group-title="ESPORTES",CazéTV
+https://www.youtube.com/@CazeTV/live
+#EXTINF:-1 tvg-id="ch86" tvg-name="ConecTV" tvg-logo="" group-title="ESPORTES",ConecTV
+https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8
+#EXTINF:-1 tvg-id="ch87" tvg-name="Conexão TV" tvg-logo="" group-title="ESPORTES",Conexão TV
+https://5a57bda70564a.streamlock.net/conexaotv/conexaotv.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="ch88" tvg-name="TV Turfe" tvg-logo="" group-title="ESPORTES",TV Turfe
+https://5c483b9d1019c.streamlock.net/8200/8200/playlist.m3u8
+#EXTINF:-1 tvg-id="ch89" tvg-name="Canal Off" tvg-logo="" group-title="ESPORTES",Canal Off
+https://cdn-5.nxplay.com.br/OFF/index.m3u8
+#EXTINF:-1 tvg-id="ch90" tvg-name="Sportv" tvg-logo="" group-title="ESPORTES",Sportv
+https://cdn-5.nxplay.com.br/SPORTV/index.m3u8
+#EXTINF:-1 tvg-id="ch91" tvg-name="Sportv 2" tvg-logo="" group-title="ESPORTES",Sportv 2
+https://cdn-5.nxplay.com.br/SPORTV2/index.m3u8
+#EXTINF:-1 tvg-id="ch92" tvg-name="Sportv 3" tvg-logo="" group-title="ESPORTES",Sportv 3
+https://cdn-5.nxplay.com.br/SPORTV3/index.m3u8
+#EXTINF:-1 tvg-id="ch93" tvg-name="Sportv 4" tvg-logo="" group-title="ESPORTES",Sportv 4
+https://cdn-5.nxplay.com.br/SPORTV4/index.m3u8
+#EXTINF:-1 tvg-id="ch94" tvg-name="Sportv 5" tvg-logo="" group-title="ESPORTES",Sportv 5
+https://cdn-5.nxplay.com.br/SPORTV5/index.m3u8
+#EXTINF:-1 tvg-id="ch95" tvg-name="ESPN" tvg-logo="" group-title="ESPORTES",ESPN
+https://cdn-5.nxplay.com.br/ESPN/index.m3u8
+#EXTINF:-1 tvg-id="ch96" tvg-name="ESPN 2" tvg-logo="" group-title="ESPORTES",ESPN 2
+https://cdn-5.nxplay.com.br/ESPN2/index.m3u8
+#EXTINF:-1 tvg-id="ch97" tvg-name="ESPN 3" tvg-logo="" group-title="ESPORTES",ESPN 3
+https://cdn-5.nxplay.com.br/ESPN3/index.m3u8
+#EXTINF:-1 tvg-id="ch98" tvg-name="ESPN 4" tvg-logo="" group-title="ESPORTES",ESPN 4
+https://cdn-5.nxplay.com.br/ESPN4/index.m3u8
+#EXTINF:-1 tvg-id="ch99" tvg-name="ESPN 5" tvg-logo="" group-title="ESPORTES",ESPN 5
+https://cdn-5.nxplay.com.br/ESPN5/index.m3u8
+#EXTINF:-1 tvg-id="ch100" tvg-name="ESPN 6" tvg-logo="" group-title="ESPORTES",ESPN 6
+https://cdn-5.nxplay.com.br/ESPN6/index.m3u8
+#EXTINF:-1 tvg-id="ch101" tvg-name="Combate" tvg-logo="" group-title="ESPORTES",Combate
+https://cdn-5.nxplay.com.br/COMBATE/index.m3u8
+#EXTINF:-1 tvg-id="ch102" tvg-name="Premiere" tvg-logo="" group-title="ESPORTES",Premiere
+https://cdn-5.nxplay.com.br/PREMIERE/index.m3u8
+#EXTINF:-1 tvg-id="ch103" tvg-name="Premiere 2" tvg-logo="" group-title="ESPORTES",Premiere 2
+https://cdn-5.nxplay.com.br/PREMIERE2/index.m3u8
+#EXTINF:-1 tvg-id="ch104" tvg-name="Premiere 3" tvg-logo="" group-title="ESPORTES",Premiere 3
+https://cdn-5.nxplay.com.br/PREMIERE3/index.m3u8
+#EXTINF:-1 tvg-id="ch105" tvg-name="Premiere 4" tvg-logo="" group-title="ESPORTES",Premiere 4
+https://cdn-5.nxplay.com.br/PREMIERE4/index.m3u8
+#EXTINF:-1 tvg-id="ch106" tvg-name="Premiere 5" tvg-logo="" group-title="ESPORTES",Premiere 5
+https://cdn-5.nxplay.com.br/PREMIERE5/index.m3u8
+#EXTINF:-1 tvg-id="ch107" tvg-name="Premiere 6" tvg-logo="" group-title="ESPORTES",Premiere 6
+https://cdn-5.nxplay.com.br/PREMIERE6/index.m3u8
+#EXTINF:-1 tvg-id="ch108" tvg-name="Premiere 7" tvg-logo="" group-title="ESPORTES",Premiere 7
+https://cdn-5.nxplay.com.br/PREMIERE7/index.m3u8
+#EXTINF:-1 tvg-id="ch109" tvg-name="Premiere 8" tvg-logo="" group-title="ESPORTES",Premiere 8
+https://cdn-5.nxplay.com.br/PREMIERE8/index.m3u8
+#EXTINF:-1 tvg-id="ch110" tvg-name="ESPN Extra" tvg-logo="" group-title="ESPORTES",ESPN Extra
+https://cdn-5.nxplay.com.br/ESPN_EXTRA/index.m3u8
+#EXTINF:-1 tvg-id="ch111" tvg-name="TV Brasil Esportes" tvg-logo="" group-title="ESPORTES",TV Brasil Esportes
+https://stream.ls-tv.tv/live/206.m3u8
+#EXTINF:-1 tvg-id="ch112" tvg-name="MT Esportes" tvg-logo="" group-title="ESPORTES",MT Esportes
+https://5cf4a2c2512a2.streamlock.net/8210/8210/playlist.m3u8
+#EXTINF:-1 tvg-id="ch113" tvg-name="Futebol Total" tvg-logo="" group-title="ESPORTES",Futebol Total
+https://5c483b9d1019c.streamlock.net/8220/8220/playlist.m3u8
+#EXTINF:-1 tvg-id="ch114" tvg-name="Esporte Interativo" tvg-logo="" group-title="ESPORTES",Esporte Interativo
+https://cdn-5.nxplay.com.br/ESPORTE_INTERATIVO/index.m3u8
+#EXTINF:-1 tvg-id="ch115" tvg-name="TV Esporte" tvg-logo="" group-title="ESPORTES",TV Esporte
+https://5cf4a2c2512a2.streamlock.net/8230/8230/playlist.m3u8
+#EXTINF:-1 tvg-id="ch116" tvg-name="UFC Fight Pass" tvg-logo="" group-title="ESPORTES",UFC Fight Pass
+https://cdn-5.nxplay.com.br/UFC/index.m3u8
+#EXTINF:-1 tvg-id="ch117" tvg-name="WWE Network" tvg-logo="" group-title="ESPORTES",WWE Network
+https://cdn-5.nxplay.com.br/WWE/index.m3u8
+#EXTINF:-1 tvg-id="ch118" tvg-name="NBA TV" tvg-logo="" group-title="ESPORTES",NBA TV
+https://cdn-5.nxplay.com.br/NBA/index.m3u8
+#EXTINF:-1 tvg-id="ch119" tvg-name="NHL TV" tvg-logo="" group-title="ESPORTES",NHL TV
+https://cdn-5.nxplay.com.br/NHL/index.m3u8
+#EXTINF:-1 tvg-id="ch120" tvg-name="NFL Sunday Ticket" tvg-logo="" group-title="ESPORTES",NFL Sunday Ticket
+https://cdn-5.nxplay.com.br/NFL/index.m3u8
+#EXTINF:-1 tvg-id="ch121" tvg-name="Record News" tvg-logo="" group-title="NOTÍCIAS",Record News
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116
+#EXTINF:-1 tvg-id="ch122" tvg-name="GloboNews" tvg-logo="" group-title="NOTÍCIAS",GloboNews
+https://cdn-5.nxplay.com.br/GLOBONEWS/index.m3u8
+#EXTINF:-1 tvg-id="ch123" tvg-name="BandNews" tvg-logo="" group-title="NOTÍCIAS",BandNews
+https://cdn-5.nxplay.com.br/BAND_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="ch124" tvg-name="J3NEWS" tvg-logo="" group-title="NOTÍCIAS",J3NEWS
+https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
+#EXTINF:-1 tvg-id="ch125" tvg-name="TV Câmara" tvg-logo="" group-title="NOTÍCIAS",TV Câmara
+https://stream3.camara.gov.br/tv1/manifest.m3u8
+#EXTINF:-1 tvg-id="ch126" tvg-name="Canal Gov" tvg-logo="" group-title="NOTÍCIAS",Canal Gov
+https://canalgov-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id="ch127" tvg-name="TV Senado" tvg-logo="" group-title="NOTÍCIAS",TV Senado
+https://www.youtube.com/watch?v=wD3KHI_b-PI
+#EXTINF:-1 tvg-id="ch128" tvg-name="TV Justiça" tvg-logo="" group-title="NOTÍCIAS",TV Justiça
+https://www.youtube.com/@TVJusticaOficial/live
+#EXTINF:-1 tvg-id="ch129" tvg-name="TV Educação" tvg-logo="" group-title="NOTÍCIAS",TV Educação
+https://canaleducacao-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id="ch130" tvg-name="TV Sim Cachoeiro" tvg-logo="" group-title="NOTÍCIAS",TV Sim Cachoeiro
+https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
+#EXTINF:-1 tvg-id="ch131" tvg-name="TV Sim Colatina" tvg-logo="" group-title="NOTÍCIAS",TV Sim Colatina
+https://5cf4a2c2512a2.streamlock.net/8132/8132/playlist.m3u8
+#EXTINF:-1 tvg-id="ch132" tvg-name="CNN Brasil" tvg-logo="" group-title="NOTÍCIAS",CNN Brasil
+https://cdn-5.nxplay.com.br/CNN_BRASIL/index.m3u8
+#EXTINF:-1 tvg-id="ch133" tvg-name="Jovem Pan" tvg-logo="" group-title="NOTÍCIAS",Jovem Pan
+https://cdn-5.nxplay.com.br/JOVEM_PAN/index.m3u8
+#EXTINF:-1 tvg-id="ch134" tvg-name="BBC World" tvg-logo="" group-title="NOTÍCIAS",BBC World
+https://cdn-5.nxplay.com.br/BBC_WORLD/index.m3u8
+#EXTINF:-1 tvg-id="ch135" tvg-name="CNN International" tvg-logo="" group-title="NOTÍCIAS",CNN International
+https://cdn-5.nxplay.com.br/CNN_INTERNATIONAL/index.m3u8
+#EXTINF:-1 tvg-id="ch136" tvg-name="France 24" tvg-logo="" group-title="NOTÍCIAS",France 24
+https://cdn-5.nxplay.com.br/FRANCE24/index.m3u8
+#EXTINF:-1 tvg-id="ch137" tvg-name="Al Jazeera" tvg-logo="" group-title="NOTÍCIAS",Al Jazeera
+https://cdn-5.nxplay.com.br/AL_JAZEERA/index.m3u8
+#EXTINF:-1 tvg-id="ch138" tvg-name="Bloomberg" tvg-logo="" group-title="NOTÍCIAS",Bloomberg
+https://cdn-5.nxplay.com.br/BLOOMBERG/index.m3u8
+#EXTINF:-1 tvg-id="ch139" tvg-name="Reuters TV" tvg-logo="" group-title="NOTÍCIAS",Reuters TV
+https://cdn-5.nxplay.com.br/REUTERS/index.m3u8
+#EXTINF:-1 tvg-id="ch140" tvg-name="CBN" tvg-logo="" group-title="NOTÍCIAS",CBN
+https://cdn-5.nxplay.com.br/CBN/index.m3u8
+#EXTINF:-1 tvg-id="ch141" tvg-name="GloboNews HD" tvg-logo="" group-title="NOTÍCIAS",GloboNews HD
+https://cdn-5.nxplay.com.br/GLOBONEWS_HD/index.m3u8
+#EXTINF:-1 tvg-id="ch142" tvg-name="Record News HD" tvg-logo="" group-title="NOTÍCIAS",Record News HD
+https://cdn-5.nxplay.com.br/RECORD_NEWS_HD/index.m3u8
+#EXTINF:-1 tvg-id="ch143" tvg-name="BandNews HD" tvg-logo="" group-title="NOTÍCIAS",BandNews HD
+https://cdn-5.nxplay.com.br/BAND_NEWS_HD/index.m3u8
+#EXTINF:-1 tvg-id="ch144" tvg-name="SBT News" tvg-logo="" group-title="NOTÍCIAS",SBT News
+https://cdn-5.nxplay.com.br/SBT_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="ch145" tvg-name="TV Brasil News" tvg-logo="" group-title="NOTÍCIAS",TV Brasil News
+https://stream.ls-tv.tv/live/206.m3u8
+#EXTINF:-1 tvg-id="ch146" tvg-name="R7 News" tvg-logo="" group-title="NOTÍCIAS",R7 News
+https://cdn-5.nxplay.com.br/R7_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="ch147" tvg-name="Terra News" tvg-logo="" group-title="NOTÍCIAS",Terra News
+https://cdn-5.nxplay.com.br/TERRA_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="ch148" tvg-name="Yahoo News" tvg-logo="" group-title="NOTÍCIAS",Yahoo News
+https://cdn-5.nxplay.com.br/YAHOO_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="ch149" tvg-name="UOL News" tvg-logo="" group-title="NOTÍCIAS",UOL News
+https://cdn-5.nxplay.com.br/UOL_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="ch150" tvg-name="MSN News" tvg-logo="" group-title="NOTÍCIAS",MSN News
+https://cdn-5.nxplay.com.br/MSN_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="ch151" tvg-name="Cartoon Network" tvg-logo="" group-title="INFANTIL",Cartoon Network
+https://cdn-5.nxplay.com.br/CARTOON/index.m3u8
+#EXTINF:-1 tvg-id="ch152" tvg-name="Nickelodeon" tvg-logo="" group-title="INFANTIL",Nickelodeon
+https://cdn-5.nxplay.com.br/NICKELODEON/index.m3u8
+#EXTINF:-1 tvg-id="ch153" tvg-name="Disney Channel" tvg-logo="" group-title="INFANTIL",Disney Channel
+https://cdn-5.nxplay.com.br/DISNEY/index.m3u8
+#EXTINF:-1 tvg-id="ch154" tvg-name="Disney XD" tvg-logo="" group-title="INFANTIL",Disney XD
+https://cdn-5.nxplay.com.br/DISNEY_XD/index.m3u8
+#EXTINF:-1 tvg-id="ch155" tvg-name="Disney Junior" tvg-logo="" group-title="INFANTIL",Disney Junior
+https://cdn-5.nxplay.com.br/DISNEY_JUNIOR/index.m3u8
+#EXTINF:-1 tvg-id="ch156" tvg-name="Nick Jr." tvg-logo="" group-title="INFANTIL",Nick Jr.
+https://cdn-5.nxplay.com.br/NICK_JR/index.m3u8
+#EXTINF:-1 tvg-id="ch157" tvg-name="Boomerang" tvg-logo="" group-title="INFANTIL",Boomerang
+https://cdn-5.nxplay.com.br/BOOMERANG/index.m3u8
+#EXTINF:-1 tvg-id="ch158" tvg-name="Baby TV" tvg-logo="" group-title="INFANTIL",Baby TV
+https://cdn-5.nxplay.com.br/BABY_TV/index.m3u8
+#EXTINF:-1 tvg-id="ch159" tvg-name="Discovery Kids" tvg-logo="" group-title="INFANTIL",Discovery Kids
+https://cdn-5.nxplay.com.br/DISCOVERY_KIDS/index.m3u8
+#EXTINF:-1 tvg-id="ch160" tvg-name="TV Rá Tim Bum" tvg-logo="" group-title="INFANTIL",TV Rá Tim Bum
+https://cdn-5.nxplay.com.br/RATIMBUM/index.m3u8
+#EXTINF:-1 tvg-id="ch161" tvg-name="Gloob" tvg-logo="" group-title="INFANTIL",Gloob
+https://cdn-5.nxplay.com.br/GLOOB/index.m3u8
+#EXTINF:-1 tvg-id="ch162" tvg-name="Gloobinho" tvg-logo="" group-title="INFANTIL",Gloobinho
+https://cdn-5.nxplay.com.br/GLOOBINHO/index.m3u8
+#EXTINF:-1 tvg-id="ch163" tvg-name="Nat Geo Kids" tvg-logo="" group-title="INFANTIL",Nat Geo Kids
+https://cdn-5.nxplay.com.br/NATGEO_KIDS/index.m3u8
+#EXTINF:-1 tvg-id="ch164" tvg-name="PlayKids" tvg-logo="" group-title="INFANTIL",PlayKids
+https://cdn-5.nxplay.com.br/PLAYKIDS/index.m3u8
+#EXTINF:-1 tvg-id="ch165" tvg-name="TV Cultura Kids" tvg-logo="" group-title="INFANTIL",TV Cultura Kids
+https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+#EXTINF:-1 tvg-id="ch166" tvg-name="MTV" tvg-logo="" group-title="MÚSICA",MTV
+https://cdn-5.nxplay.com.br/MTV/index.m3u8
+#EXTINF:-1 tvg-id="ch167" tvg-name="MTV 00s" tvg-logo="" group-title="MÚSICA",MTV 00s
+https://cdn-5.nxplay.com.br/MTV_00S/index.m3u8
+#EXTINF:-1 tvg-id="ch168" tvg-name="VH1" tvg-logo="" group-title="MÚSICA",VH1
+https://cdn-5.nxplay.com.br/VH1/index.m3u8
+#EXTINF:-1 tvg-id="ch169" tvg-name="VH1 MegaHits" tvg-logo="" group-title="MÚSICA",VH1 MegaHits
+https://cdn-5.nxplay.com.br/VH1_MEGAHITS/index.m3u8
+#EXTINF:-1 tvg-id="ch170" tvg-name="Music Box Brazil" tvg-logo="" group-title="MÚSICA",Music Box Brazil
+https://cdn-5.nxplay.com.br/MUSIC_BOX/index.m3u8
+#EXTINF:-1 tvg-id="ch171" tvg-name="Multishow Music" tvg-logo="" group-title="MÚSICA",Multishow Music
+https://cdn-5.nxplay.com.br/MULTISHOW_MUSIC/index.m3u8
+#EXTINF:-1 tvg-id="ch172" tvg-name="BIS Music" tvg-logo="" group-title="MÚSICA",BIS Music
+https://cdn-5.nxplay.com.br/BIS_MUSIC/index.m3u8
+#EXTINF:-1 tvg-id="ch173" tvg-name="Woohoo Music" tvg-logo="" group-title="MÚSICA",Woohoo Music
+https://cdn-5.nxplay.com.br/WOOHOO_MUSIC/index.m3u8
+#EXTINF:-1 tvg-id="ch174" tvg-name="Samba TV" tvg-logo="" group-title="MÚSICA",Samba TV
+https://cdn-5.nxplay.com.br/SAMBA/index.m3u8
+#EXTINF:-1 tvg-id="ch175" tvg-name="Sertanejo TV" tvg-logo="" group-title="MÚSICA",Sertanejo TV
+https://cdn-5.nxplay.com.br/SERTANEJO/index.m3u8
+#EXTINF:-1 tvg-id="ch176" tvg-name="Forró TV" tvg-logo="" group-title="MÚSICA",Forró TV
+https://cdn-5.nxplay.com.br/FORRO/index.m3u8
+#EXTINF:-1 tvg-id="ch177" tvg-name="Funk TV" tvg-logo="" group-title="MÚSICA",Funk TV
+https://cdn-5.nxplay.com.br/FUNK/index.m3u8
+#EXTINF:-1 tvg-id="ch178" tvg-name="Rock TV" tvg-logo="" group-title="MÚSICA",Rock TV
+https://cdn-5.nxplay.com.br/ROCK/index.m3u8
+#EXTINF:-1 tvg-id="ch179" tvg-name="Pop TV" tvg-logo="" group-title="MÚSICA",Pop TV
+https://cdn-5.nxplay.com.br/POP/index.m3u8
+#EXTINF:-1 tvg-id="ch180" tvg-name="MPB TV" tvg-logo="" group-title="MÚSICA",MPB TV
+https://cdn-5.nxplay.com.br/MPB/index.m3u8
+#EXTINF:-1 tvg-id="ch181" tvg-name="Discovery Channel" tvg-logo="" group-title="DOC",Discovery Channel
+https://cdn-5.nxplay.com.br/DISCOVERY/index.m3u8
+#EXTINF:-1 tvg-id="ch182" tvg-name="History" tvg-logo="" group-title="DOC",History
+https://cdn-5.nxplay.com.br/HISTORY/index.m3u8
+#EXTINF:-1 tvg-id="ch183" tvg-name="Nat Geo" tvg-logo="" group-title="DOC",Nat Geo
+https://cdn-5.nxplay.com.br/NATGEO/index.m3u8
+#EXTINF:-1 tvg-id="ch184" tvg-name="Nat Geo Wild" tvg-logo="" group-title="DOC",Nat Geo Wild
+https://cdn-5.nxplay.com.br/NATGEO_WILD/index.m3u8
+#EXTINF:-1 tvg-id="ch185" tvg-name="Animal Planet" tvg-logo="" group-title="DOC",Animal Planet
+https://cdn-5.nxplay.com.br/ANIMAL_PLANET/index.m3u8
+#EXTINF:-1 tvg-id="ch186" tvg-name="Discovery Turbo" tvg-logo="" group-title="DOC",Discovery Turbo
+https://cdn-5.nxplay.com.br/DISCOVERY_TURBO/index.m3u8
+#EXTINF:-1 tvg-id="ch187" tvg-name="Discovery Science" tvg-logo="" group-title="DOC",Discovery Science
+https://cdn-5.nxplay.com.br/DISCOVERY_SCIENCE/index.m3u8
+#EXTINF:-1 tvg-id="ch188" tvg-name="Discovery Civilization" tvg-logo="" group-title="DOC",Discovery Civilization
+https://cdn-5.nxplay.com.br/DISCOVERY_CIVILIZATION/index.m3u8
+#EXTINF:-1 tvg-id="ch189" tvg-name="Discovery Home&Health" tvg-logo="" group-title="DOC",Discovery Home&Health
+https://cdn-5.nxplay.com.br/DISCOVERY_HOME/index.m3u8
+#EXTINF:-1 tvg-id="ch190" tvg-name="TLC" tvg-logo="" group-title="DOC",TLC
+https://cdn-5.nxplay.com.br/TLC/index.m3u8
+#EXTINF:-1 tvg-id="ch191" tvg-name="Investigação Discovery" tvg-logo="" group-title="DOC",Investigação Discovery
+https://cdn-5.nxplay.com.br/INVESTIGACAO/index.m3u8
+#EXTINF:-1 tvg-id="ch192" tvg-name="HGTV" tvg-logo="" group-title="DOC",HGTV
+https://cdn-5.nxplay.com.br/HGTV/index.m3u8
+#EXTINF:-1 tvg-id="ch193" tvg-name="Food Network" tvg-logo="" group-title="DOC",Food Network
+https://cdn-5.nxplay.com.br/FOOD/index.m3u8
+#EXTINF:-1 tvg-id="ch194" tvg-name="Travel & Living" tvg-logo="" group-title="DOC",Travel & Living
+https://cdn-5.nxplay.com.br/TRAVEL/index.m3u8
+#EXTINF:-1 tvg-id="ch195" tvg-name="Curta!" tvg-logo="" group-title="DOC",Curta!
+https://cdn-5.nxplay.com.br/CURTA/index.m3u8
+#EXTINF:-1 tvg-id="ch196" tvg-name="Record" tvg-logo="" group-title="VARIEDADES",Record
+https://cdn-5.nxplay.com.br/RECORD/index.m3u8
+#EXTINF:-1 tvg-id="ch197" tvg-name="SBT SP" tvg-logo="" group-title="VARIEDADES",SBT SP
+https://cdn-5.nxplay.com.br/SBT_SP/index.m3u8
+#EXTINF:-1 tvg-id="ch198" tvg-name="Band" tvg-logo="" group-title="VARIEDADES",Band
+https://cdn-5.nxplay.com.br/BAND/index.m3u8
+#EXTINF:-1 tvg-id="ch199" tvg-name="RedeTV!" tvg-logo="" group-title="VARIEDADES",RedeTV!
+https://cdn-5.nxplay.com.br/REDETV/index.m3u8
+#EXTINF:-1 tvg-id="ch200" tvg-name="CNT SP" tvg-logo="" group-title="VARIEDADES",CNT SP
+https://cdn-5.nxplay.com.br/CNT_SP/index.m3u8
+#EXTINF:-1 tvg-id="ch201" tvg-name="Gazeta SP" tvg-logo="" group-title="VARIEDADES",Gazeta SP
+https://cdn-5.nxplay.com.br/GAZETA_SP/index.m3u8
+#EXTINF:-1 tvg-id="ch202" tvg-name="TV Canção Nova" tvg-logo="" group-title="VARIEDADES",TV Canção Nova
+https://5cf4a2c2512a2.streamlock.net/8240/8240/playlist.m3u8
+#EXTINF:-1 tvg-id="ch203" tvg-name="TV Século 21" tvg-logo="" group-title="VARIEDADES",TV Século 21
+https://5c483b9d1019c.streamlock.net/8250/8250/playlist.m3u8
+#EXTINF:-1 tvg-id="ch204" tvg-name="TV Horizonte" tvg-logo="" group-title="VARIEDADES",TV Horizonte
+https://5cf4a2c2512a2.streamlock.net/8260/8260/playlist.m3u8
+#EXTINF:-1 tvg-id="ch205" tvg-name="Rede Super" tvg-logo="" group-title="VARIEDADES",Rede Super
+https://5c483b9d1019c.streamlock.net/8270/8270/playlist.m3u8
+#EXTINF:-1 tvg-id="ch206" tvg-name="TV Novo Tempo" tvg-logo="" group-title="VARIEDADES",TV Novo Tempo
+https://5cf4a2c2512a2.streamlock.net/8280/8280/playlist.m3u8
+#EXTINF:-1 tvg-id="ch207" tvg-name="TV Mundo Maior" tvg-logo="" group-title="VARIEDADES",TV Mundo Maior
+https://5c483b9d1019c.streamlock.net/8290/8290/playlist.m3u8
+#EXTINF:-1 tvg-id="ch208" tvg-name="TV Aparecida 2" tvg-logo="" group-title="VARIEDADES",TV Aparecida 2
+https://5cf4a2c2512a2.streamlock.net/8300/8300/playlist.m3u8
+#EXTINF:-1 tvg-id="ch209" tvg-name="TV Evangelizar 2" tvg-logo="" group-title="VARIEDADES",TV Evangelizar 2
+https://5c483b9d1019c.streamlock.net/8310/8310/playlist.m3u8
+#EXTINF:-1 tvg-id="ch210" tvg-name="TV Rede Gospel" tvg-logo="" group-title="VARIEDADES",TV Rede Gospel
+https://5cf4a2c2512a2.streamlock.net/8320/8320/playlist.m3u8
+#EXTINF:-1 tvg-id="ch211" tvg-name="TV WEB Brasil" tvg-logo="" group-title="VARIEDADES",TV WEB Brasil
+https://5c483b9d1019c.streamlock.net/8330/8330/playlist.m3u8
+#EXTINF:-1 tvg-id="ch212" tvg-name="TV Interativa" tvg-logo="" group-title="VARIEDADES",TV Interativa
+https://5cf4a2c2512a2.streamlock.net/8340/8340/playlist.m3u8
+#EXTINF:-1 tvg-id="ch213" tvg-name="TV Cidade Verde" tvg-logo="" group-title="VARIEDADES",TV Cidade Verde
+https://5c483b9d1019c.streamlock.net/8350/8350/playlist.m3u8
+#EXTINF:-1 tvg-id="ch214" tvg-name="TV Mais" tvg-logo="" group-title="VARIEDADES",TV Mais
+https://5cf4a2c2512a2.streamlock.net/8360/8360/playlist.m3u8
+#EXTINF:-1 tvg-id="ch215" tvg-name="TV Centro América" tvg-logo="" group-title="VARIEDADES",TV Centro América
+https://5c483b9d1019c.streamlock.net/8370/8370/playlist.m3u8
+#EXTINF:-1 tvg-id="ch216" tvg-name="RTP Internacional" tvg-logo="" group-title="INTERNACIONAL",RTP Internacional
+https://cdn-5.nxplay.com.br/RTP/index.m3u8
+#EXTINF:-1 tvg-id="ch217" tvg-name="Globo Internacional" tvg-logo="" group-title="INTERNACIONAL",Globo Internacional
+https://cdn-5.nxplay.com.br/GLOBO_INTERNATIONAL/index.m3u8
+#EXTINF:-1 tvg-id="ch218" tvg-name="Record Internacional" tvg-logo="" group-title="INTERNACIONAL",Record Internacional
+https://cdn-5.nxplay.com.br/RECORD_INTERNATIONAL/index.m3u8
+#EXTINF:-1 tvg-id="ch219" tvg-name="Band Internacional" tvg-logo="" group-title="INTERNACIONAL",Band Internacional
+https://cdn-5.nxplay.com.br/BAND_INTERNATIONAL/index.m3u8
+#EXTINF:-1 tvg-id="ch220" tvg-name="SBT Internacional" tvg-logo="" group-title="INTERNACIONAL",SBT Internacional
+https://cdn-5.nxplay.com.br/SBT_INTERNATIONAL/index.m3u8
+#EXTINF:-1 tvg-id="ch221" tvg-name="TVE Internacional" tvg-logo="" group-title="INTERNACIONAL",TVE Internacional
+https://cdn-5.nxplay.com.br/TVE/index.m3u8
+#EXTINF:-1 tvg-id="ch222" tvg-name="Antena 3" tvg-logo="" group-title="INTERNACIONAL",Antena 3
+https://cdn-5.nxplay.com.br/ANTENA3/index.m3u8
+#EXTINF:-1 tvg-id="ch223" tvg-name="Telefe" tvg-logo="" group-title="INTERNACIONAL",Telefe
+https://cdn-5.nxplay.com.br/TELEFE/index.m3u8
+#EXTINF:-1 tvg-id="ch224" tvg-name="Telemundo" tvg-logo="" group-title="INTERNACIONAL",Telemundo
+https://cdn-5.nxplay.com.br/TELEMUNDO/index.m3u8
+#EXTINF:-1 tvg-id="ch225" tvg-name="Univision" tvg-logo="" group-title="INTERNACIONAL",Univision
+https://cdn-5.nxplay.com.br/UNIVISION/index.m3u8
+#EXTINF:-1 tvg-id="ch226" tvg-name="CNN en Español" tvg-logo="" group-title="INTERNACIONAL",CNN en Español
+https://cdn-5.nxplay.com.br/CNN_ESPANHOL/index.m3u8
+#EXTINF:-1 tvg-id="ch227" tvg-name="BBC One" tvg-logo="" group-title="INTERNACIONAL",BBC One
+https://cdn-5.nxplay.com.br/BBC1/index.m3u8
+#EXTINF:-1 tvg-id="ch228" tvg-name="BBC Two" tvg-logo="" group-title="INTERNACIONAL",BBC Two
+https://cdn-5.nxplay.com.br/BBC2/index.m3u8
+#EXTINF:-1 tvg-id="ch229" tvg-name="ITV" tvg-logo="" group-title="INTERNACIONAL",ITV
+https://cdn-5.nxplay.com.br/ITV/index.m3u8
+#EXTINF:-1 tvg-id="ch230" tvg-name="Channel 4" tvg-logo="" group-title="INTERNACIONAL",Channel 4
+https://cdn-5.nxplay.com.br/CHANNEL4/index.m3u8
+#EXTINF:-1 tvg-id="ch231" tvg-name="Sky News" tvg-logo="" group-title="INTERNACIONAL",Sky News
+https://cdn-5.nxplay.com.br/SKY_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="ch232" tvg-name="Euronews" tvg-logo="" group-title="INTERNACIONAL",Euronews
+https://cdn-5.nxplay.com.br/EURONEWS/index.m3u8
+#EXTINF:-1 tvg-id="ch233" tvg-name="Deutsche Welle" tvg-logo="" group-title="INTERNACIONAL",Deutsche Welle
+https://cdn-5.nxplay.com.br/DW/index.m3u8
+#EXTINF:-1 tvg-id="ch234" tvg-name="NHK World" tvg-logo="" group-title="INTERNACIONAL",NHK World
+https://cdn-5.nxplay.com.br/NHK/index.m3u8
+#EXTINF:-1 tvg-id="ch235" tvg-name="CCTV" tvg-logo="" group-title="INTERNACIONAL",CCTV
+https://cdn-5.nxplay.com.br/CCTV/index.m3u8
+#EXTINF:-1 tvg-id="ch236" tvg-name="Globo 24h" tvg-logo="" group-title="24HORAS",Globo 24h
+https://cdn-5.nxplay.com.br/GLOBO_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch237" tvg-name="Record 24h" tvg-logo="" group-title="24HORAS",Record 24h
+https://cdn-5.nxplay.com.br/RECORD_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch238" tvg-name="SBT 24h" tvg-logo="" group-title="24HORAS",SBT 24h
+https://cdn-5.nxplay.com.br/SBT_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch239" tvg-name="Band 24h" tvg-logo="" group-title="24HORAS",Band 24h
+https://cdn-5.nxplay.com.br/BAND_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch240" tvg-name="RedeTV 24h" tvg-logo="" group-title="24HORAS",RedeTV 24h
+https://cdn-5.nxplay.com.br/REDETV_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch241" tvg-name="CNN 24h" tvg-logo="" group-title="24HORAS",CNN 24h
+https://cdn-5.nxplay.com.br/CNN_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch242" tvg-name="GloboNews 24h" tvg-logo="" group-title="24HORAS",GloboNews 24h
+https://cdn-5.nxplay.com.br/GLOBONEWS_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch243" tvg-name="Record News 24h" tvg-logo="" group-title="24HORAS",Record News 24h
+https://cdn-5.nxplay.com.br/RECORDNEWS_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch244" tvg-name="ESPN 24h" tvg-logo="" group-title="24HORAS",ESPN 24h
+https://cdn-5.nxplay.com.br/ESPN_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch245" tvg-name="Sportv 24h" tvg-logo="" group-title="24HORAS",Sportv 24h
+https://cdn-5.nxplay.com.br/SPORTV_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch246" tvg-name="Cartoon 24h" tvg-logo="" group-title="24HORAS",Cartoon 24h
+https://cdn-5.nxplay.com.br/CARTOON_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch247" tvg-name="Discovery 24h" tvg-logo="" group-title="24HORAS",Discovery 24h
+https://cdn-5.nxplay.com.br/DISCOVERY_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch248" tvg-name="Nat Geo 24h" tvg-logo="" group-title="24HORAS",Nat Geo 24h
+https://cdn-5.nxplay.com.br/NATGEO_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch249" tvg-name="History 24h" tvg-logo="" group-title="24HORAS",History 24h
+https://cdn-5.nxplay.com.br/HISTORY_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch250" tvg-name="HBO 24h" tvg-logo="" group-title="24HORAS",HBO 24h
+https://cdn-5.nxplay.com.br/HBO_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch251" tvg-name="Telecine 24h" tvg-logo="" group-title="24HORAS",Telecine 24h
+https://cdn-5.nxplay.com.br/TELECINE_24H/index.m3u8
+#EXTINF:-1 tvg-id="ch252" tvg-name="Malhação 2026" tvg-logo="" group-title="FILME",Malhação 2026
+https://cdn-5.nxplay.com.br/MALHACAO_2026/index.m3u8
+#EXTINF:-1 tvg-id="ch253" tvg-name="Vingadores Ultimato" tvg-logo="" group-title="FILME",Vingadores Ultimato
+https://cdn-5.nxplay.com.br/VINGADORES_ULTIMATO/index.m3u8
+#EXTINF:-1 tvg-id="ch254" tvg-name="Avatar 2" tvg-logo="" group-title="FILME",Avatar 2
+https://cdn-5.nxplay.com.br/AVATAR_2/index.m3u8
+#EXTINF:-1 tvg-id="ch255" tvg-name="Homem Aranha 3" tvg-logo="" group-title="FILME",Homem Aranha 3
+https://cdn-5.nxplay.com.br/HOMEM_ARANHA_3/index.m3u8
+#EXTINF:-1 tvg-id="ch256" tvg-name="Batman 2022" tvg-logo="" group-title="FILME",Batman 2022
+https://cdn-5.nxplay.com.br/BATMAN_2022/index.m3u8
+#EXTINF:-1 tvg-id="ch257" tvg-name="Jurassic Park" tvg-logo="" group-title="FILME",Jurassic Park
+https://cdn-5.nxplay.com.br/JURASSIC_PARK/index.m3u8
+#EXTINF:-1 tvg-id="ch258" tvg-name="Matrix 4" tvg-logo="" group-title="FILME",Matrix 4
+https://cdn-5.nxplay.com.br/MATRIX_4/index.m3u8
+#EXTINF:-1 tvg-id="ch259" tvg-name="Star Wars IX" tvg-logo="" group-title="FILME",Star Wars IX
+https://cdn-5.nxplay.com.br/STAR_WARS_IX/index.m3u8
+#EXTINF:-1 tvg-id="ch260" tvg-name="Interestelar" tvg-logo="" group-title="FILME",Interestelar
+https://cdn-5.nxplay.com.br/INTERESTELAR/index.m3u8
+#EXTINF:-1 tvg-id="ch261" tvg-name="Titanic" tvg-logo="" group-title="FILME",Titanic
+https://cdn-5.nxplay.com.br/TITANIC/index.m3u8
+#EXTINF:-1 tvg-id="ch262" tvg-name="O Rei Leão" tvg-logo="" group-title="FILME",O Rei Leão
+https://cdn-5.nxplay.com.br/REI_LEAO/index.m3u8
+#EXTINF:-1 tvg-id="ch263" tvg-name="Frozen 2" tvg-logo="" group-title="FILME",Frozen 2
+https://cdn-5.nxplay.com.br/FROZEN_2/index.m3u8
+#EXTINF:-1 tvg-id="ch264" tvg-name="Minions 2" tvg-logo="" group-title="FILME",Minions 2
+https://cdn-5.nxplay.com.br/MINIONS_2/index.m3u8
+#EXTINF:-1 tvg-id="ch265" tvg-name="Sonic 2" tvg-logo="" group-title="FILME",Sonic 2
+https://cdn-5.nxplay.com.br/SONIC_2/index.m3u8
+#EXTINF:-1 tvg-id="ch266" tvg-name="Super Mario Bros" tvg-logo="" group-title="FILME",Super Mario Bros
+https://cdn-5.nxplay.com.br/SUPER_MARIO/index.m3u8
+#EXTINF:-1 tvg-id="ch267" tvg-name="Malhação 2026 Completo" tvg-logo="" group-title="FILME",Malhação 2026 Completo
+https://cdn-5.nxplay.com.br/MALHACAO_2026_FULL/index.m3u8
