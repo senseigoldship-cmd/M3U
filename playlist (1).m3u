@@ -1,0 +1,657 @@
+#EXTM3U
+#PLAYLIST:M3U TURBO - Turbo
+#DESCRIPTION:217 canais | 02/07/2026, 14:18:57
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=1000
+
+#EXTINF:-1 group-title="FILMES",📺 SBT
+http://000.000.000.000:8873/live/sbt/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 Record TV
+http://000.000.000.000:14483/live/recordtv/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Band
+http://000.000.000.000:11424/live/band/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 Globo
+http://000.000.000.000:15871/live/globo/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 RedeTV
+http://000.000.000.000:14625/live/redetv/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 TV Brasil
+http://000.000.000.000:12868/live/tvbrasil/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 TV Cultura
+http://000.000.000.000:16761/live/tvcultura/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 Rede Vida
+http://000.000.000.000:15115/live/redevida/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 RIT TV
+http://000.000.000.000:16743/live/rittv/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 CNT
+http://000.000.000.000:14514/live/cnt/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 TV Gazeta
+http://000.000.000.000:9066/live/tvgazeta/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 TV Aparecida
+http://000.000.000.000:9376/live/tvaparecida/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 NBR
+http://000.000.000.000:12147/live/nbr/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 TV Câmara
+http://000.000.000.000:12183/live/tvcmara/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 TV Senado
+http://000.000.000.000:14770/live/tvsenado/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 TV Justiça
+http://000.000.000.000:15865/live/tvjustia/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 Canal Brasil
+http://000.000.000.000:12689/live/canalbrasil/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 TV Escola
+http://000.000.000.000:16050/live/tvescola/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 Telecine
+http://000.000.000.000:10852/live/telecine/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Telecine Action
+http://000.000.000.000:16002/live/telecineaction/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 Telecine Touch
+http://000.000.000.000:10564/live/telecinetouch/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 Telecine Pipoca
+http://000.000.000.000:14123/live/telecinepipoca/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 Telecine Premium
+http://000.000.000.000:10835/live/telecinepremium/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 HBO
+http://000.000.000.000:14398/live/hbo/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 HBO 2
+http://000.000.000.000:14701/live/hbo2/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 HBO Plus
+http://000.000.000.000:11941/live/hboplus/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 HBO Family
+http://000.000.000.000:14823/live/hbofamily/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 HBO Mundi
+http://000.000.000.000:16853/live/hbomundi/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Max
+http://000.000.000.000:16867/live/max/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 Max Prime
+http://000.000.000.000:11778/live/maxprime/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 Max Up
+http://000.000.000.000:14033/live/maxup/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 Star Channel
+http://000.000.000.000:13353/live/starchannel/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 FX
+http://000.000.000.000:9475/live/fx/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 A&E
+http://000.000.000.000:16557/live/ae/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 AMC
+http://000.000.000.000:10291/live/amc/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 TCM
+http://000.000.000.000:12988/live/tcm/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 MegaPix
+http://000.000.000.000:14394/live/megapix/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 Studio Universal
+http://000.000.000.000:10908/live/studiouniversal/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Universal TV
+http://000.000.000.000:16981/live/universaltv/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 Sportv
+http://000.000.000.000:15888/live/sportv/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 Sportv 2
+http://000.000.000.000:9043/live/sportv2/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 Sportv 3
+http://000.000.000.000:12271/live/sportv3/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 ESPN
+http://000.000.000.000:16527/live/espn/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 ESPN 2
+http://000.000.000.000:16847/live/espn2/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 ESPN 3
+http://000.000.000.000:14538/live/espn3/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 ESPN 4
+http://000.000.000.000:16826/live/espn4/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 BandSports
+http://000.000.000.000:15196/live/bandsports/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 Combate
+http://000.000.000.000:14402/live/combate/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 Premiere
+http://000.000.000.000:11338/live/premiere/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 Premiere 2
+http://000.000.000.000:13729/live/premiere2/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 Premiere 3
+http://000.000.000.000:9603/live/premiere3/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Premiere 4
+http://000.000.000.000:13023/live/premiere4/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 Premiere 5
+http://000.000.000.000:13372/live/premiere5/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 Premiere 6
+http://000.000.000.000:8723/live/premiere6/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 GloboNews
+http://000.000.000.000:13082/live/globonews/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 Record News
+http://000.000.000.000:13099/live/recordnews/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 BandNews
+http://000.000.000.000:8637/live/bandnews/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 Jovem Pan
+http://000.000.000.000:14090/live/jovempan/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 CNN Brasil
+http://000.000.000.000:11757/live/cnnbrasil/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 BBC World
+http://000.000.000.000:9807/live/bbcworld/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 Cartoon Network
+http://000.000.000.000:9607/live/cartoonnetwork/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 Nickelodeon
+http://000.000.000.000:13715/live/nickelodeon/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 Nick Jr.
+http://000.000.000.000:12478/live/nickjr/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 Disney Channel
+http://000.000.000.000:12005/live/disneychannel/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 Disney Junior
+http://000.000.000.000:13718/live/disneyjunior/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 Disney XD
+http://000.000.000.000:16108/live/disneyxd/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Boomerang
+http://000.000.000.000:15157/live/boomerang/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 Gloob
+http://000.000.000.000:10257/live/gloob/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Discovery Kids
+http://000.000.000.000:11621/live/discoverykids/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 Baby TV
+http://000.000.000.000:15938/live/babytv/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 TV Rá-Tim-Bum
+http://000.000.000.000:16568/live/tvrtimbum/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 Discovery Channel
+http://000.000.000.000:8481/live/discoverychannel/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 History
+http://000.000.000.000:8248/live/history/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 History 2
+http://000.000.000.000:11105/live/history2/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 Animal Planet
+http://000.000.000.000:9701/live/animalplanet/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 National Geographic
+http://000.000.000.000:9953/live/nationalgeographic/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Discovery Science
+http://000.000.000.000:10447/live/discoveryscience/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 TLC
+http://000.000.000.000:10278/live/tlc/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 HGTV
+http://000.000.000.000:9986/live/hgtv/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 Food Network
+http://000.000.000.000:10175/live/foodnetwork/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 GNT
+http://000.000.000.000:8743/live/gnt/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 Curta!
+http://000.000.000.000:9334/live/curta/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 Arte 1
+http://000.000.000.000:12770/live/arte1/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 Multishow
+http://000.000.000.000:14156/live/multishow/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 Viva
+http://000.000.000.000:11186/live/viva/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 BIS
+http://000.000.000.000:15027/live/bis/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 Woohoo
+http://000.000.000.000:12715/live/woohoo/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 Music Box
+http://000.000.000.000:16269/live/musicbox/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 MTV
+http://000.000.000.000:11937/live/mtv/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 MTV Hits
+http://000.000.000.000:16283/live/mtvhits/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 Axé TV
+http://000.000.000.000:13223/live/axtv/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Samba TV
+http://000.000.000.000:10941/live/sambatv/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 Sertanejo TV
+http://000.000.000.000:16830/live/sertanejotv/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 AgroBrasil
+http://000.000.000.000:12627/live/agrobrasil/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 Canal Rural
+http://000.000.000.000:8050/live/canalrural/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 CazéTV
+http://000.000.000.000:15368/live/caztv/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 Sony Channel
+http://000.000.000.000:10093/live/sonychannel/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 Warner Channel
+http://000.000.000.000:16883/live/warnerchannel/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 Comedy Central
+http://000.000.000.000:9619/live/comedycentral/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 CNN
+http://000.000.000.000:15568/live/cnn/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 BBC
+http://000.000.000.000:14748/live/bbc/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 FOX News
+http://000.000.000.000:15207/live/foxnews/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 ABC
+http://000.000.000.000:9614/live/abc/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 NBC
+http://000.000.000.000:10861/live/nbc/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 CBS
+http://000.000.000.000:8539/live/cbs/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 PBS
+http://000.000.000.000:16257/live/pbs/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 DW
+http://000.000.000.000:8934/live/dw/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 France 24
+http://000.000.000.000:15471/live/france24/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 RTP
+http://000.000.000.000:11714/live/rtp/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 TVE
+http://000.000.000.000:13161/live/tve/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 RT
+http://000.000.000.000:15808/live/rt/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Al Jazeera
+http://000.000.000.000:9495/live/aljazeera/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 NHK
+http://000.000.000.000:12024/live/nhk/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 CCTV
+http://000.000.000.000:16964/live/cctv/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 TeleSUR
+http://000.000.000.000:8292/live/telesur/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 TV5Monde
+http://000.000.000.000:9438/live/tv5monde/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 Canção Nova
+http://000.000.000.000:8639/live/canonova/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 TV Aparecida
+http://000.000.000.000:15287/live/tvaparecida/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 Rede Vida
+http://000.000.000.000:15831/live/redevida/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 RIT
+http://000.000.000.000:8413/live/rit/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 Novo Tempo
+http://000.000.000.000:10615/live/novotempo/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 Boas Novas
+http://000.000.000.000:11511/live/boasnovas/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 TV Evangelizar
+http://000.000.000.000:12022/live/tvevangelizar/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 TV Pai Eterno
+http://000.000.000.000:16095/live/tvpaieterno/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 TV Século 21
+http://000.000.000.000:9839/live/tvsculo21/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 TV Cultura
+http://000.000.000.000:8234/live/tvcultura/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 TV Brasil 2
+http://000.000.000.000:16237/live/tvbrasil2/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 Amazon Sat
+http://000.000.000.000:16511/live/amazonsat/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 TVE Bahia
+http://000.000.000.000:16542/live/tvebahia/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 TVE RS
+http://000.000.000.000:13724/live/tvers/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 Rede Minas
+http://000.000.000.000:14560/live/redeminas/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 TV Integração
+http://000.000.000.000:9574/live/tvintegrao/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 TV Centro América
+http://000.000.000.000:9185/live/tvcentroamrica/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 TV Anhanguera
+http://000.000.000.000:11223/live/tvanhanguera/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 SBT
+http://000.000.000.000:13911/live/sbt/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 Record TV
+http://000.000.000.000:12687/live/recordtv/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Band
+http://000.000.000.000:13465/live/band/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 Globo
+http://000.000.000.000:11081/live/globo/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 RedeTV
+http://000.000.000.000:9761/live/redetv/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 TV Brasil
+http://000.000.000.000:8973/live/tvbrasil/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 TV Cultura
+http://000.000.000.000:12462/live/tvcultura/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 MTV
+http://000.000.000.000:9579/live/mtv/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 VH1
+http://000.000.000.000:11217/live/vh1/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 VH1 Classic
+http://000.000.000.000:11505/live/vh1classic/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 Discovery Channel
+http://000.000.000.000:15082/live/discoverychannel/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 History
+http://000.000.000.000:14910/live/history/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 Telecine
+http://000.000.000.000:9200/live/telecine/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 HBO
+http://000.000.000.000:9511/live/hbo/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Max
+http://000.000.000.000:16081/live/max/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 Star Channel
+http://000.000.000.000:9591/live/starchannel/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 Sportv
+http://000.000.000.000:11476/live/sportv/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 ESPN
+http://000.000.000.000:9091/live/espn/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 Record News
+http://000.000.000.000:10224/live/recordnews/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 BandNews
+http://000.000.000.000:8086/live/bandnews/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 CNN Brasil
+http://000.000.000.000:14094/live/cnnbrasil/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 Jovem Pan
+http://000.000.000.000:14521/live/jovempan/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 GloboNews
+http://000.000.000.000:14481/live/globonews/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 Record News
+http://000.000.000.000:15301/live/recordnews/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 BandNews
+http://000.000.000.000:12168/live/bandnews/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 Jovem Pan
+http://000.000.000.000:15938/live/jovempan/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 Cartoon Network
+http://000.000.000.000:14311/live/cartoonnetwork/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 Nickelodeon
+http://000.000.000.000:14268/live/nickelodeon/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 Disney Channel
+http://000.000.000.000:14664/live/disneychannel/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 Discovery Kids
+http://000.000.000.000:11654/live/discoverykids/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 Multishow
+http://000.000.000.000:9707/live/multishow/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 GNT
+http://000.000.000.000:11876/live/gnt/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 Viva
+http://000.000.000.000:8018/live/viva/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 BIS
+http://000.000.000.000:13409/live/bis/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 MTV
+http://000.000.000.000:10918/live/mtv/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 HBO
+http://000.000.000.000:14685/live/hbo/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 HBO 2
+http://000.000.000.000:15485/live/hbo2/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 HBO Plus
+http://000.000.000.000:9851/live/hboplus/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 HBO Family
+http://000.000.000.000:13547/live/hbofamily/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 HBO Mundi
+http://000.000.000.000:13812/live/hbomundi/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 Max
+http://000.000.000.000:16611/live/max/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 Max Prime
+http://000.000.000.000:12606/live/maxprime/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 Sportv
+http://000.000.000.000:13835/live/sportv/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 ESPN
+http://000.000.000.000:12174/live/espn/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 ESPN 2
+http://000.000.000.000:12313/live/espn2/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 ESPN 3
+http://000.000.000.000:11343/live/espn3/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 ESPN 4
+http://000.000.000.000:10741/live/espn4/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 ESPN 5
+http://000.000.000.000:10161/live/espn5/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 ESPN 6
+http://000.000.000.000:12513/live/espn6/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 Premiere
+http://000.000.000.000:14869/live/premiere/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 Premiere 2
+http://000.000.000.000:8701/live/premiere2/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 Premiere 3
+http://000.000.000.000:12078/live/premiere3/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Premiere 4
+http://000.000.000.000:12104/live/premiere4/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 Premiere 5
+http://000.000.000.000:9648/live/premiere5/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 Telecine
+http://000.000.000.000:10387/live/telecine/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 Telecine Action
+http://000.000.000.000:10423/live/telecineaction/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 Telecine Touch
+http://000.000.000.000:13907/live/telecinetouch/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 Telecine Pipoca
+http://000.000.000.000:8697/live/telecinepipoca/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 Discovery Channel
+http://000.000.000.000:9509/live/discoverychannel/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 History
+http://000.000.000.000:12766/live/history/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 Animal Planet
+http://000.000.000.000:12664/live/animalplanet/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 Nat Geo
+http://000.000.000.000:8893/live/natgeo/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 TLC
+http://000.000.000.000:16512/live/tlc/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 CNN
+http://000.000.000.000:12763/live/cnn/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 BBC
+http://000.000.000.000:13105/live/bbc/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 FOX News
+http://000.000.000.000:14507/live/foxnews/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 DW
+http://000.000.000.000:14954/live/dw/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 France 24
+http://000.000.000.000:10298/live/france24/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Al Jazeera
+http://000.000.000.000:14435/live/aljazeera/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 Canção Nova
+http://000.000.000.000:11128/live/canonova/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 TV Aparecida
+http://000.000.000.000:8060/live/tvaparecida/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 Rede Vida
+http://000.000.000.000:9270/live/redevida/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 Novo Tempo
+http://000.000.000.000:9699/live/novotempo/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 TV Brasil
+http://000.000.000.000:13752/live/tvbrasil/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 TV Cultura
+http://000.000.000.000:12299/live/tvcultura/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 TVE Brasil
+http://000.000.000.000:11510/live/tvebrasil/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 Amazon Sat
+http://000.000.000.000:9914/live/amazonsat/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 SBT
+http://000.000.000.000:12167/live/sbt/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 Record TV
+http://000.000.000.000:13931/live/recordtv/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Band
+http://000.000.000.000:8915/live/band/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 Globo
+http://000.000.000.000:12005/live/globo/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 RedeTV!
+http://000.000.000.000:9274/live/redetv/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 TV Brasil
+http://000.000.000.000:14715/live/tvbrasil/index.m3u8
+
