@@ -1,0 +1,156 @@
+#EXTM3U
+#PLAYLIST:M3U TURBO - Turbo
+#DESCRIPTION:50 canais | 02/07/2026, 21:57:51
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:network-caching=1000
+
+#EXTINF:-1 group-title="FILMES",📺 Malhação 2026
+link://streamlocking/live/malhao2026/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 SBT
+link://streamlocking/live/sbt/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 Record TV
+link://streamlocking/live/recordtv/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Band
+link://streamlocking/live/band/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 Globo
+link://streamlocking/live/globo/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 RedeTV
+link://streamlocking/live/redetv/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 TV Brasil
+link://streamlocking/live/tvbrasil/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 TV Cultura
+link://streamlocking/live/tvcultura/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 Rede Vida
+link://streamlocking/live/redevida/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 RIT TV
+link://streamlocking/live/rittv/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 CNT
+link://streamlocking/live/cnt/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 TV Gazeta
+link://streamlocking/live/tvgazeta/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 TV Aparecida
+link://streamlocking/live/tvaparecida/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 NBR
+link://streamlocking/live/nbr/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 TV Câmara
+link://streamlocking/live/tvcmara/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 TV Senado
+link://streamlocking/live/tvsenado/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 TV Justiça
+link://streamlocking/live/tvjustia/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 Canal Brasil
+link://streamlocking/live/canalbrasil/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 TV Escola
+link://streamlocking/live/tvescola/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 Telecine
+link://streamlocking/live/telecine/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 Telecine Action
+link://streamlocking/live/telecineaction/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 Telecine Touch
+link://streamlocking/live/telecinetouch/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 Telecine Pipoca
+link://streamlocking/live/telecinepipoca/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 Telecine Premium
+link://streamlocking/live/telecinepremium/index.m3u8
+
+#EXTINF:-1 group-title="REGIONAL",📺 HBO
+link://streamlocking/live/hbo/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 HBO 2
+link://streamlocking/live/hbo2/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 HBO Plus
+link://streamlocking/live/hboplus/index.m3u8
+
+#EXTINF:-1 group-title="INFANTIL",📺 HBO Family
+link://streamlocking/live/hbofamily/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 HBO Mundi
+link://streamlocking/live/hbomundi/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 Max
+link://streamlocking/live/max/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 Max Prime
+link://streamlocking/live/maxprime/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 Max Up
+link://streamlocking/live/maxup/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 Star Channel
+link://streamlocking/live/starchannel/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 FX
+link://streamlocking/live/fx/index.m3u8
+
+#EXTINF:-1 group-title="INTERNACIONAL",📺 A&E
+link://streamlocking/live/ae/index.m3u8
+
+#EXTINF:-1 group-title="FILMES",📺 AMC
+link://streamlocking/live/amc/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 TCM
+link://streamlocking/live/tcm/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 MegaPix
+link://streamlocking/live/megapix/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 Studio Universal
+link://streamlocking/live/studiouniversal/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 Universal TV
+link://streamlocking/live/universaltv/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 Sportv
+link://streamlocking/live/sportv/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 Sportv 2
+link://streamlocking/live/sportv2/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 Sportv 3
+link://streamlocking/live/sportv3/index.m3u8
+
+#EXTINF:-1 group-title="ESPORTES",📺 ESPN
+link://streamlocking/live/espn/index.m3u8
+
+#EXTINF:-1 group-title="NOTÍCIAS",📺 ESPN 2
+link://streamlocking/live/espn2/index.m3u8
+
+#EXTINF:-1 group-title="DOC",📺 ESPN 3
+link://streamlocking/live/espn3/index.m3u8
+
+#EXTINF:-1 group-title="RELIGIOSO",📺 ESPN 4
+link://streamlocking/live/espn4/index.m3u8
+
+#EXTINF:-1 group-title="VARIEDADES",📺 BandSports
+link://streamlocking/live/bandsports/index.m3u8
+
+#EXTINF:-1 group-title="ABERTO",📺 Combate
+link://streamlocking/live/combate/index.m3u8
+
+#EXTINF:-1 group-title="MÚSICA",📺 Premiere
+link://streamlocking/live/premiere/index.m3u8
+
